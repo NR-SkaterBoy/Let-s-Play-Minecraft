@@ -19,10 +19,12 @@
       "minecraft:savanna_plateau": "2024-05-29 11:36:05 +0200",
       "minecraft:beach": "2024-04-01 15:05:05 +0200",
       "minecraft:dark_forest": "2024-04-03 14:15:40 +0200",
+      "minecraft:stony_peaks": "2024-05-31 13:32:47 +0200",
       "minecraft:sparse_jungle": "2024-04-01 14:56:04 +0200",
       "minecraft:river": "2024-04-01 14:46:07 +0200",
       "minecraft:lukewarm_ocean": "2024-04-01 22:22:09 +0200",
       "minecraft:stony_shore": "2024-04-01 19:24:30 +0200",
+      "minecraft:grove": "2024-05-31 13:43:26 +0200",
       "minecraft:forest": "2024-04-01 14:52:05 +0200",
       "minecraft:lush_caves": "2024-04-02 12:49:02 +0200",
       "minecraft:desert": "2024-05-29 11:31:49 +0200",
@@ -32,6 +34,7 @@
       "minecraft:deep_lukewarm_ocean": "2024-05-30 12:17:04 +0200",
       "minecraft:flower_forest": "2024-04-01 19:25:06 +0200",
       "minecraft:old_growth_birch_forest": "2024-04-03 14:17:48 +0200",
+      "minecraft:deep_dark": "2024-05-31 16:10:38 +0200",
       "minecraft:meadow": "2024-04-01 19:32:26 +0200",
       "minecraft:savanna": "2024-04-01 14:46:03 +0200",
       "minecraft:plains": "2024-04-01 14:44:11 +0200"
@@ -148,6 +151,7 @@
       "baked_potato": "2024-05-29 22:15:46 +0200",
       "apple": "2024-04-02 13:00:53 +0200",
       "potato": "2024-04-02 00:36:49 +0200",
+      "cooked_cod": "2024-05-31 13:52:44 +0200",
       "pumpkin_pie": "2024-05-29 12:47:03 +0200",
       "bread": "2024-04-02 23:51:52 +0200",
       "rotten_flesh": "2024-04-01 17:01:41 +0200",
@@ -845,12 +849,14 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:blaze": "2024-04-02 18:15:37 +0200",
+      "minecraft:pillager": "2024-05-31 13:39:31 +0200",
       "minecraft:skeleton": "2024-04-01 15:13:27 +0200",
       "minecraft:ghast": "2024-04-02 13:47:09 +0200",
       "minecraft:hoglin": "2024-04-01 23:57:08 +0200",
       "minecraft:magma_cube": "2024-04-02 18:18:46 +0200",
       "minecraft:spider": "2024-04-01 17:02:25 +0200",
       "minecraft:creeper": "2024-04-01 17:16:34 +0200",
+      "minecraft:slime": "2024-05-31 15:22:53 +0200",
       "minecraft:phantom": "2024-04-02 22:57:06 +0200",
       "minecraft:zombified_piglin": "2024-04-01 23:56:18 +0200",
       "minecraft:witch": "2024-04-03 00:32:43 +0200",
@@ -3697,6 +3703,108 @@
   "minecraft:recipes/decorations/armor_stand": {
     "criteria": {
       "has_stone_slab": "2024-05-31 00:17:28 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bowl": {
+    "criteria": {
+      "has_brown_mushroom": "2024-05-31 10:57:57 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/emerald_from_smelting_emerald_ore": {
+    "criteria": {
+      "has_emerald_ore": "2024-05-31 13:37:47 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/emerald_from_blasting_emerald_ore": {
+    "criteria": {
+      "has_emerald_ore": "2024-05-31 13:37:47 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_planks": {
+    "criteria": {
+      "has_log": "2024-05-31 13:42:59 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_wood": {
+    "criteria": {
+      "has_log": "2024-05-31 13:42:59 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/sticky_piston": {
+    "criteria": {
+      "has_slime_ball": "2024-05-31 15:32:14 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/slime_block": {
+    "criteria": {
+      "has_slime_ball": "2024-05-31 15:32:14 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/lead": {
+    "criteria": {
+      "has_slime_ball": "2024-05-31 15:32:14 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_sandstone_stairs_from_smooth_sandstone_stonecutting": {
+    "criteria": {
+      "has_smooth_sandstone": "2024-05-31 15:55:02 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_sandstone_slab_from_smooth_sandstone_stonecutting": {
+    "criteria": {
+      "has_smooth_sandstone": "2024-05-31 15:55:02 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_sandstone_stairs": {
+    "criteria": {
+      "has_smooth_sandstone": "2024-05-31 15:55:02 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_sandstone_slab": {
+    "criteria": {
+      "has_smooth_sandstone": "2024-05-31 15:55:02 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/summon_iron_golem": {
+    "criteria": {
+      "summoned_golem": "2024-05-31 15:57:13 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/shulker_box": {
+    "criteria": {
+      "has_shulker_shell": "2024-05-31 16:37:41 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/recovery_compass": {
+    "criteria": {
+      "has_echo_shard": "2024-05-31 16:37:46 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/quartz": {
+    "criteria": {
+      "has_nether_quartz_ore": "2024-05-31 17:10:37 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/quartz_from_blasting": {
+    "criteria": {
+      "has_nether_quartz_ore": "2024-05-31 17:10:37 +0200"
     },
     "done": true
   },
